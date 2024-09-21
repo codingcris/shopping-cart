@@ -1,0 +1,44 @@
+.nav {
+  background: linear-gradient(
+    90deg,
+    #2a2a2a,
+    #1c1c1c
+  ); /* Dark subdued grey to darker grey */
+  padding: 1rem 2rem;
+  color: white;
+  font-family: "Playfair Display";
+  position: sticky;
+  top: 0;
+  font-size: 1.5rem;
+}
+
+.nav h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.materialSymbolsOutlined {
+  font-family: "Material Symbols Outlined";
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: larger;
+}
+
+.cartCounter {
+  background-color: white;
+  padding: 0.25rem;
+  border-radius: 1rem;
+  color: black;
+  font-family: "Lato";
+}
+
+.cart {
+  cursor: pointer;
+}

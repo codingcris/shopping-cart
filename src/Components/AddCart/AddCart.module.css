@@ -1,0 +1,59 @@
+.widget {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantity button {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #3a4a5e; /* Matching the gradient theme */
+  background-color: #3a4a5e; /* Button background to fit the theme */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.quantity button:hover {
+  background-color: #546e8a; /* Slightly lighter color on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.quantity input {
+  flex-shrink: 1;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0; /* Light background for contrast */
+  color: #333;
+  text-align: center; /* Center the text within the input */
+  box-sizing: border-box;
+}
+
+.addCartBttn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #3a4a5e;
+  background-color: #3a4a5e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.addCartBttn:hover {
+  background-color: #546e8a;
+  transform: scale(1.05);
+}

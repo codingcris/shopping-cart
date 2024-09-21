@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "UNIQLO Cotton Oversized T-Shirt",
+    "description": "Elevate your everyday wardrobe with these high-quality, durable basics. The UNIQLO Cotton Oversized T-Shirt offers a unique, fashionable look with its comfortable oversized fit—perfect for both style and comfort.",
+    "price": 15.0,
+    "imageUrl": "src/assets/images/UNIQLO_T.avif",
+    "inStock": true,
+    "variants": ["Small", "Medium", "Large", "XL"],
+    "category": "wearables"
+  },
+  {
+    "id": 2,
+    "name": "Gold Toe Athletic Socks",
+    "description": "Invest in your comfort with Gold Toe Athletic Socks. Designed to keep your feet dry, comfortable, and well-supported, these durable socks come in a variety of styles—all with the same promise of unmatched quality.",
+    "price": 22.0,
+    "imageUrl": "src/assets/images/gold-toe-socks.jpg",
+    "inStock": true,
+    "variants": ["White", "Black", "Grey"],
+    "category": "wearables"
+  },
+  {
+    "id": 3,
+    "name": "Brooks Running Shoes",
+    "description": "Experience the ultimate in running comfort with Brooks Running Shoes. Lightweight and designed with a zero drop sole, these shoes promote a natural stride, helping you run comfortably and injury-free.",
+    "price": 80.0,
+    "imageUrl": "src/assets/images/brooks-running-shoes.avif",
+    "inStock": true,
+    "variants": ["7", "8", "9", "10", "11", "12"],
+    "category": "wearables"
+  },
+  {
+    "id": 4,
+    "name": "King C Gillette Safety Razor",
+    "description": "Rediscover the art of shaving with the King C Gillette Safety Razor. Offering a closer shave that’s gentler on your skin, this classic double-edged razor is not only cost-effective but also environmentally friendly. Once you experience this timeless tool, you’ll never look back.",
+    "price": 35.0,
+    "imageUrl": "src/assets/images/kingcgillette.webp",
+    "inStock": true,
+    "variants": ["Handle Only", "With Blades"],
+    "category": "personalCare"
+  },
+  {
+    "id": 5,
+    "name": "Prorasso Shaving Soap",
+    "description": "Elevate your shaving routine with Proraso Shaving Soap. Crafted for a smooth, close shave, this high-quality soap delivers a rich lather and a classic scent, ensuring an exceptional shaving experience every time.",
+    "price": 12.0,
+    "imageUrl": "src/assets/images/proraso-soap.webp",
+    "inStock": true,
+    "variants": ["Sensitive Skin", "Moisturizing", "Nourishing"],
+    "category": "personalCare"
+  },
+  {
+    "id": 6,
+    "name": "Bose Quiet Comfort Headphones",
+    "description": "Experience unparalleled sound with Bose Quiet Comfort Headphones. Known for their unbeatable audio quality, these headphones also offer superior comfort, making them the perfect companion for long listening sessions. Redefine your expectations of what headphones can be.",
+    "price": 500.0,
+    "imageUrl": "src/assets/images/bose-quiet-comfort.webp",
+    "inStock": true,
+    "variants": ["Black", "Silver"],
+    "category": "electronics"
+  }
+]
